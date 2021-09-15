@@ -2,9 +2,37 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+/* color */
+.--bg-primary{
+    background-color: #E6E6E6;
+}
+/* font size */
+.h-fs{
+    font-size: 70px;
+}
 .navigation{
     margin-left: 400px;
 }
 .icon{
   margin-left: 170px;
+}
+.opening-section{
+    height: 100vh;
+    margin-top: 60px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .h-fs{
+        font-size: 35px;
+    }
+    .opening-section{
+        margin-top: 100px;
+    }
+    .opening-img img{
+        width: 77%;
+        display: block;
+        margin: auto;
+    }
 }
