@@ -23,6 +23,9 @@ body{
 .--top-margin{
     margin-top: 100px;
 }
+.--bottom-margin{
+    margin-bottom: 100px;
+}
 .btn{
     background-color: #9ad4e2;
     padding: 10px 30px;
