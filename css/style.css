@@ -33,6 +33,9 @@ body{
     background-color: #000000;
     color: azure;
 }
+.social:hover{
+    transform: scale(1.2);
+}
 @media only screen and (max-width: 768px) {
     .h-fs{
         font-size: 35px;
